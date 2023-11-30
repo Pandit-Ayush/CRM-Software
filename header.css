@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  section {
+    position: relative;
+  }
+  
+  header {
+    position: fixed; /* Change from sticky to fixed */
+    top: 0; /* Set the distance from the top */
+    width: 100%;
+    padding: 30px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url(images/header.jpg);
+  }
+  
+  header .logo {
+    position: sticky;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: none;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-family: Ephesis;
+  }
+  
+  .navigation a {
+    background: #fff;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header .navigation {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+  
+  header .navigation a:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  header .navigation a:hover {
+    background: rgba(64, 42, 35, 0.9);
+    padding: 15px 25px;
+    border: 3px solid brown;
+    color: #fff;
+  }
+  
+  #Sign-btn {
+    color: #281a16;
+    background-color: #f1ecce;
+    border-radius: 0px;
+    padding: 15px 20px 15px 20px;
+  }
+  
+  #Sign-btn:hover {
+    color: #281a16;
+    background-color: #fff;
+    border: 3px solid #281a16;
+    font-weight: bold;
+  }
